@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 
 import './Pages.css'
-import CM from './CM.png'
+import CM from './images/CM.png'
 import { BsSearch } from "react-icons/bs";
 
 
@@ -13,7 +13,7 @@ export default function CharacterPage(){
 	}
 
 	const handleClickCharacter = () => {
-		navigate('/page/chat')
+		navigate('/page/situation')
 	}
 
 	return(

@@ -11,6 +11,7 @@ import MainPage from './components/MainPage';
 import CharacterPage from './components/CharacterPage';
 import Chat from './components/Chat';
 import Search from './components/Search';
+import Situation from './components/Situation';
 
 const router = createBrowserRouter([
   { path: '/', element: <HomePage />},
@@ -25,7 +26,8 @@ const router = createBrowserRouter([
         element: <ChatLayout/>,
         children: [
           {path:'chat', element: <Chat/>},
-          {path:'search', element: <Search/>}
+          {path:'search', element: <Search/>},
+          {path:'situation', element: <Situation/>}
         ]
       }
     ]

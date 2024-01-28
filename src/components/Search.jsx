@@ -1,4 +1,4 @@
-import R from './ROBOT.png'
+import R from './images/ROBOT.png'
 import { BsCursorFill } from "react-icons/bs";
 import './Chat.css'
 

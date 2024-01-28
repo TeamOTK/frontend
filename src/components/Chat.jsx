@@ -1,4 +1,4 @@
-import CM from './CM.png'
+import CM from './images/CM.png'
 import { BsCursorFill } from "react-icons/bs";
 import './Chat.css'
 
