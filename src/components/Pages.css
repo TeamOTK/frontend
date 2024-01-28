@@ -1,0 +1,93 @@
+.MainPageBackGround{
+	height: 100%;
+	background-color: #E6E1EF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.MainPageLargeTextSet{
+	display: flex;
+	flex-direction: column;
+	margin-top: 12%;
+	align-items: center;
+}
+
+.MainPageSmallTextSet{
+	display: flex;
+	flex-direction: column;
+	margin-top: 14%;
+	align-items: center;
+}
+
+.MainPageLargeText{
+	text-align: center;
+	color: #3C1A7D;
+	font-weight: bold;
+}
+
+.MainPageSmallText{
+	text-align: center;
+	color: #808080;
+}
+
+h1{
+	font-size: 3rem;
+	margin-block-start: 0.32em;
+	margin-block-end: 0.32em;
+	font-weight: bold;
+}
+
+h2{
+	margin-block-start: 0.32em;
+	margin-block-end: 0.32em;
+}
+
+.StartButton{
+	background-color: #3C1A7D;
+	border-color: #3C1A7D;
+	font-weight: bold;
+	font-size: 1.5rem;
+	width: 60%;
+	margin-top: 8%;
+}
+
+.CharacterList{
+	width: 100%;
+	height: 100%;
+	margin-top: 4%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.CharacterItem{
+	width: 85%;
+	height: 28%;
+	padding: 8px;
+	background-color: white;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.CharacterImg{
+	width: 45%;
+	height: 90%;
+}
+
+.CharacterDesc{
+	width: 55%;
+	height: 90%;
+	padding: 8px;
+	margin-left: 2%;
+}
+
+.CharacterLargeTextSet{
+	display: flex;
+	flex-direction: row;
+	margin-top: 12%;
+	align-items: center;
+	justify-content: center;
+	width: 95%;
+}
