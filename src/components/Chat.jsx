@@ -2,9 +2,12 @@ import CM from './images/CM.png'
 import { BsCursorFill } from "react-icons/bs";
 import './Chat.css'
 
+import SubHeader from './Header/SubHeader';
+
 export default function Chat(){
 	return(
 		<>
+			<SubHeader name='청명'/>
 			<div className="ChatLog">
 				<div className="AiChat">
 					<img src={CM} width={60}/>

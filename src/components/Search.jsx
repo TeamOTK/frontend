@@ -2,9 +2,12 @@ import R from './images/ROBOT.png'
 import { BsCursorFill } from "react-icons/bs";
 import './Chat.css'
 
+import SubHeader from './Header/SubHeader';
+
 export default function Search(){
 	return(
 		<>
+			<SubHeader name='검색 로봇'/>
 			<div className="ChatLog">
 				<div className="AiChat">
 					<img src={R} width={60}/>

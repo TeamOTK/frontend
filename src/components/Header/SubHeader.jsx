@@ -5,7 +5,7 @@ import { BsBookmarkHeartFill } from "react-icons/bs";
 
 import './SubHeader.css'
 
-export default function SubHeader(){
+export default function SubHeader(props){
 	const navigate = useNavigate();
 
 	const onClickButton = () => {
@@ -17,7 +17,7 @@ export default function SubHeader(){
 			<div className='SubHeader'>
 				<BsChevronLeft size={25} onClick={onClickButton}/>
 				{/* 이름 이후 전달 받아서 출력하는 것으로 수정 예정 */}
-				<h2 className="text">청명</h2>
+				<h2 className="text">{props.name}</h2>
 				<BsBookmarkHeartFill size={25}/>
 			</div>
 		</>
