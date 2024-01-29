@@ -26,7 +26,7 @@ export default function Chat(){
 			</div>
 			<div className='d-flex justify-content-center' style={{height:'6%'}}>
 				<div className="InputBox">
-					<div className='InputBoxText'>메세지를 입력하세요</div>
+					<input type='text'className='InputBoxText' placeholder='메세지를 입력하세요'></input>
 					<BsCursorFill size={24} style={{color:'black'}}/>
 				</div>
 				

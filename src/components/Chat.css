@@ -61,4 +61,7 @@
 .InputBoxText{
 	color: #808080;
 	font-size: 1.1em;
+	width: 100%;
+	border: 0;
+	background-color: #E6E1EF;
 }
