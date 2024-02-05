@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
 	.SubHeader{
-		height: 6%;
+		height: 8%;
 		background-color: #E6E1EF;
 		display: flex;
 		align-items: center;
@@ -8,6 +8,6 @@
 	}
 	.text{
 		font-weight: bold;
-		color: #3C1A7D;
+		color: black;
 	}
 }
