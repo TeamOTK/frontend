@@ -1,39 +1,36 @@
 import R from './images/ROBOT.png'
-import { BsCursorFill } from "react-icons/bs";
-import './Chat.css'
-
 import SubHeader from './Header/SubHeader';
+import { BsSearch } from "react-icons/bs";
+
+import './Search.css'
 
 export default function Search(){
 	return(
 		<>
-			<SubHeader name='검색 로봇'/>
-			<div className="ChatLog">
-				<div className="AiChat">
-					<img src={R} width={60}/>
-					<div className='AiChatBox'>
-						<div className='AiName'>검색 로봇</div>
-						<div className='AiText'>안녕하세요. 웹툰에 관련된 질문을 해주세요</div>
-					</div>
+			<SubHeader name='검색'/>
+			<div className='SearchContainer'>
+				<div className="SearchBox">
+					<BsSearch size={30}/>
+					<input type='text'className='SearchBoxText'></input>
 				</div>
-				<div className="UserChat">
-					<div className='UserText'>못생긴 주인공이 잘생겨지는 웹툰이 뭐였지?</div>
-				</div>
-				<div className="AiChat">
-					<img src={R} width={60}/>
-					<div className='AiChatBox'>
-						<div className='AiName'>검색 로봇</div>
-						<div className='AiText'>외모지상주의, 내 ID는 강남 미인이 있습니다.</div>
-					</div>
+				<button className='CancelSearch'>취소</button>
+			</div>
+			<div className='WebtoonRank'>
+				<div style={{fontSize:'150%',fontWeight:'bold'}}>인기 웹툰</div>
+			</div>
+			<div className='FictionRank'>
+				<div style={{fontSize:'150%',fontWeight:'bold'}}>인기 상황</div>
+			</div>
+			<div className='CharacterRank'>
+				<div style={{fontSize:'150%',fontWeight:'bold'}}>지금 사랑 받는 캐릭터</div>
+				<div className='CharacterList'>
+					<div className='CharacterItem'></div>
+					<div className='CharacterItem'></div>
+					<div className='CharacterItem'></div>
+					<div className='CharacterItem'></div>
 				</div>
 			</div>
-			<div className='d-flex justify-content-center' style={{height:'6%'}}>
-				<div className="InputBox">
-					<div className='InputBoxText'>메세지를 입력하세요</div>
-					<BsCursorFill size={24} style={{color:'black'}}/>
-				</div>
-				
-			</div>
+			
 			
 		</>
 	)
