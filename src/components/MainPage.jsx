@@ -1,6 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
+import Pencil from './images/pencil.jpg'
+
 import './Pages.css'
 
 export default function MainPage(){
@@ -13,9 +15,12 @@ export default function MainPage(){
 	return(
 		<div className='MainPageBackGround'>
 			<div className='MainPageLargeTextSet'>
-				<h1 className='MainPageLargeText'>현실 세계의 내가</h1>
-				<h1 className='MainPageLargeText'>웹툰 속 세상에</h1>
-				<h1 className='MainPageLargeText'>들어가게 되었다?!</h1>
+				<h1 className='MainPageLargeText'>Fiction</h1>
+				<div className='d-flex'>
+					<img src={Pencil} width={38} height={38} style={{marginTop:'2%'}}></img>
+					<h1 className='MainPageLargeText'>Comes True!</h1>
+				</div>
+				
 			</div>
 			<div className='MainPageSmallTextSet'>
 				<h2 className='MainPageSmallText'>좋아하는 웹툰 등장 인물과 대화하고</h2>
