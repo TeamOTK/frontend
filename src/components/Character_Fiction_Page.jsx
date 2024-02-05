@@ -9,7 +9,7 @@ export default function CharacterFicion({handleClickCharacter}) {
 				{/* map 함수 이용해 아이템 추가 */}
 				<div className='FictionItem' onClick={handleClickCharacter}>
 						<div className='FictionCharacter'>
-							<img src={CM} className='CharacterImg'/>
+							<img src={CM} className='FictionCharacterImg'/>
 							<div className='CharacterDesc'>
 								<div className='NameInfo'>청명</div>
 								<div className='PlatformInfo'>네이버웹툰</div>
