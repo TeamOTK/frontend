@@ -1,15 +1,30 @@
+import { useNavigate } from 'react-router-dom';
+
 import CM from './images/CM.png'
 import { BsCursorFill } from "react-icons/bs";
 import './Chat.css'
-
+import { BsChevronLeft } from "react-icons/bs";
+import { BsSearch } from "react-icons/bs";
 import SubHeader from './Header/SubHeader';
 import ChatHeader from './Header/ChatHeader';
 
 export default function Chat(){
+	const navigate = useNavigate();
+	const handleClickSearch= () => {
+		navigate('/page/search')
+	}
+
+	const onClickButton = () => {
+		navigate(-1);
+	}
 	return(
 		<>
-			<SubHeader name='청명'/>
-			<ChatHeader content='원작의 청명과 재밌게 대화해보세요!'/>
+			<div className='ChattingHeader'>
+				<BsChevronLeft size={25} onClick={onClickButton}/>
+				<h2 className="text">청명</h2>
+				<BsSearch size={30} style={{marginRight:'3%',fontWeight:'bold'}} onClick={handleClickSearch}/>
+			</div>
+			<ChatHeader content='원작의 청명과 재밌게 대화해보세요! (상황에서 넘어올시 변경되도록 할 예정)'/>
 			<div className="ChatLog">
 				<div className="AiChat">
 					<img src={CM} width={60}/>
