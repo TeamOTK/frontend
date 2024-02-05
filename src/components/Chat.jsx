@@ -49,7 +49,6 @@ export default function Chat(){
 					<input type='text'className='InputBoxText' placeholder='메세지를 입력하세요'></input>
 					<BsCursorFill size={24} style={{color:'black'}}/>
 				</div>
-				
 			</div>
 			
 		</>
