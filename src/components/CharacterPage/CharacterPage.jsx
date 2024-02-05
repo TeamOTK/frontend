@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 import { useState  } from 'react';
 
-import './Pages.css'
+import '../Pages.css'
 
-import SwitchComponent from './Switch';
+import SwitchComponent from '../Switch';
 import { BsSearch } from "react-icons/bs";
 import CharacterFicion from './Character_Fiction_Page';
 import CharacterOriginal from './Character_Original_Page';
@@ -18,7 +18,7 @@ export default function CharacterPage(){
 	}
 
 	const handleClickCharacter = () => {
-		navigate('/page/situation')
+		navigate('/page/chat')
 	}
 
 	return(

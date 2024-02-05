@@ -8,7 +8,7 @@ import HomePage from './components/HomePage';
 import RootLayout from './components/Layout/RootLayout';
 import ChatLayout from './components/Layout/ChatLayout';
 import MainPage from './components/MainPage';
-import CharacterPage from './components/CharacterPage';
+import CharacterPage from './components/CharacterPage/CharacterPage';
 import Chat from './components/Chat';
 import Search from './components/Search';
 import Situation from './components/Situation';

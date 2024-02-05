@@ -3,11 +3,13 @@ import { BsCursorFill } from "react-icons/bs";
 import './Chat.css'
 
 import SubHeader from './Header/SubHeader';
+import ChatHeader from './Header/ChatHeader';
 
 export default function Chat(){
 	return(
 		<>
 			<SubHeader name='청명'/>
+			<ChatHeader content='원작의 청명과 재밌게 대화해보세요!'/>
 			<div className="ChatLog">
 				<div className="AiChat">
 					<img src={CM} width={60}/>
