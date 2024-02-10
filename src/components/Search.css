@@ -56,7 +56,7 @@
 
 .CharacterItem{
 	width: 18%;
-	height: 70%;
+	aspect-ratio: 1 / 1;
 	border: black solid 1px;
 	border-radius: 50px;
 }

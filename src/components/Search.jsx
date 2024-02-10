@@ -1,4 +1,3 @@
-import R from './images/ROBOT.png'
 import SubHeader from './Header/SubHeader';
 import { BsSearch } from "react-icons/bs";
 
