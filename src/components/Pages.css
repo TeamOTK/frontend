@@ -36,6 +36,11 @@
 	color: #000000;
 }
 
+.TextBox{
+	display: flex;
+	flex-direction: row;
+}
+
 h1{
 	font-size: 3rem;
 	margin-block-start: 0.32em;
@@ -57,6 +62,9 @@ h2{
 	margin-top: 8%;
 }
 
+.StartButton:active{
+	background-color: #3C1A7D;
+}
 
 
 

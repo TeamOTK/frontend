@@ -16,7 +16,7 @@ export default function MainPage(){
 		<div className='MainPageBackGround'>
 			<div className='MainPageLargeTextSet'>
 				<h1 className='MainPageLargeText'>Fiction</h1>
-				<div className='d-flex'>
+				<div className='TextBox'>
 					<img src={Pencil} width={38} height={38} style={{marginTop:'2%'}}></img>
 					<h1 className='MainPageLargeText'>Comes True!</h1>
 				</div>

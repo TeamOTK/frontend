@@ -1,4 +1,5 @@
 import './Switch.css'
+
 export default function SwitchComponent({isOn, setisOn}){
 
 	const toggleHandler = () => {
