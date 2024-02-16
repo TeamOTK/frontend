@@ -1,7 +1,7 @@
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
-import Pencil from './images/pencil.jpg'
+import Pencil from '../images/pencil.jpg'
 
 import './Pages.css'
 
